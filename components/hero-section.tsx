@@ -9,17 +9,18 @@ export function HeroSection() {
           src="/images/canarias-cyclist-hero.jpg"
           alt="Ciclista en las Islas Canarias"
           fill
-          className="object-cover opacity-70 contrast-125"
+          className="object-cover opacity-90 contrast-125"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-80" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/10 to-transparent" />
       </div>
 
       <div className="relative z-20 text-center px-4">
-        <h1 className="font-[var(--font-headline)] font-bold text-5xl sm:text-6xl md:text-8xl lg:text-9xl tracking-normal sm:tracking-[0.1em] md:tracking-[0.2em] lg:tracking-[0.3em] text-white uppercase mb-8 leading-none">
+        <h1 className="font-[var(--font-headline)] font-bold text-5xl sm:text-6xl md:text-8xl lg:text-9xl tracking-normal sm:tracking-[0.1em] md:tracking-[0.2em] lg:tracking-[0.3em] text-white uppercase mb-6 leading-none">
           NOT FOR<br />EVERYONE
         </h1>
-        <button className="bg-white text-black font-[var(--font-headline)] font-bold tracking-widest uppercase py-5 px-12 hover:bg-accent hover:text-white transition-colors duration-0">
+        <div className="w-16 h-1 bg-accent mx-auto mb-8" />
+        <button className="bg-accent text-white font-[var(--font-headline)] font-bold tracking-widest uppercase py-5 px-12 hover:bg-white hover:text-black transition-colors duration-0">
           Shop Collection
         </button>
       </div>
