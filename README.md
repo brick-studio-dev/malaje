@@ -1,21 +1,21 @@
 # MALAJE — Not For Everyone
 
-E-commerce conceptual para una marca de ropa deportiva técnica con identidad
-propia: rendimiento de alta gama con actitud. Una exploración de cómo se vería
-una tienda real para una marca que no busca gustarle a todo el mundo.
+Concept e-commerce for a technical performance apparel brand with a strong
+identity: high-end performance with attitude. An exploration of what a real
+store would look like for a brand that isn't trying to please everyone.
 
-**Web en vivo:** https://malaje.vercel.app
+**Live site:** https://malaje.vercel.app
 
-## La idea
+## The idea
 
-MALAJE parte de una pregunta: ¿cómo sería una marca de ropa técnica (ciclismo,
-running) que en lugar de vender "para todos" se posiciona como una identidad
-exclusiva? El copy directo, la paleta (negro, blanco, magenta) y el símbolo
-del cuervo construyen esa narrativa de precisión técnica y actitud — no solo
-funcionalidad del producto.
+MALAJE starts from a question: what would a technical apparel brand
+(cycling, running) look like if, instead of selling "for everyone," it
+positioned itself as an exclusive identity? The direct copy, the palette
+(black, white, magenta), and the raven symbol build that narrative of
+technical precision and attitude — not just product functionality.
 
 ## Stack
 
 - Next.js (App Router) + React + TypeScript
 - Tailwind CSS + shadcn/ui
-- Desplegado en Vercel
+- Deployed on Vercel
